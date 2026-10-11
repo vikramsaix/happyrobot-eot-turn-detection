@@ -109,5 +109,3 @@ test_detector.py      behavior tests
 artifacts/            included model and essential evaluation results
 docs/assessment.md    solution, tradeoffs, monitoring, and next steps
 ```
-
-The synthetic CSV is regenerated locally. Video materials, local authoring files, logs, caches, and virtual environments are excluded from version control.
