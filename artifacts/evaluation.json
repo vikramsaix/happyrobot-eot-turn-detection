@@ -1,0 +1,40 @@
+{
+  "dataset": "deterministic synthetic templates; not production audio/call data",
+  "split_method": "scenario/template grouped; scenario_id mod 5 (train 0-2, validation 3, test 4)",
+  "counts": {
+    "train": 1920,
+    "validation": 560,
+    "test": 560
+  },
+  "positive_rate": 0.42857142857142855,
+  "selected_threshold": 0.5800000000000003,
+  "validation_cost": "4*false_respond + 1*false_wait; pause/stability gates applied",
+  "test_policy_with_gates": {
+    "n": 560,
+    "precision": 0.9427083333333334,
+    "recall": 0.7541666666666667,
+    "f1": 0.837962962962963,
+    "false_respond_rate": 0.034375,
+    "false_wait_rate": 0.24583333333333332,
+    "confusion": {
+      "tp": 181,
+      "fp": 11,
+      "fn": 59,
+      "tn": 309
+    }
+  },
+  "test_raw_model_at_same_threshold": {
+    "n": 560,
+    "precision": 0.8537735849056604,
+    "recall": 0.7541666666666667,
+    "f1": 0.8008849557522123,
+    "false_respond_rate": 0.096875,
+    "false_wait_rate": 0.24583333333333332,
+    "confusion": {
+      "tp": 181,
+      "fp": 31,
+      "fn": 59,
+      "tn": 289
+    }
+  }
+}

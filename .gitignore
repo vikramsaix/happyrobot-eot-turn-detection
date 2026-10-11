@@ -1,0 +1,44 @@
+# Local environments, caches, and secrets
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.log
+*.pid
+
+# Reproducible generated corpus; recreate with train.py
+/data/
+
+# Keep only the model and essential evaluation evidence
+/artifacts/*
+!/artifacts/model.json
+!/artifacts/evaluation.json
+!/artifacts/benchmark-docker.json
+
+# Local authoring, video, and supporting materials
+/AGENTS.md
+/SKILL.md
+/VIDEO_WALKTHROUGH_SCRIPT.md
+/render_video.py
+/contact_sheet.png
+/language_catalog.md
+/voice_catalog.md
+/motion-graphics.md
+/architecture.mmd
+/report/
+/*.mp4
+/*.wav
+/*.txt
+!/requirements.txt
+
+# Superseded documents and duplicate results
+/Streaming Turn-End Detection — Assessment.md
+/Turn-End Detection Baseline.md
+/benchmark.json
+/evaluation.json

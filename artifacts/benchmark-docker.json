@@ -1,0 +1,20 @@
+{
+  "target": "http://127.0.0.1:8000/predict",
+  "sequential": {
+    "requests": 1200,
+    "p50_ms": 0.904,
+    "p95_ms": 1.009,
+    "p99_ms": 1.152,
+    "mean_ms": 0.926
+  },
+  "concurrent": {
+    "requests": 1200,
+    "p50_ms": 9.088,
+    "p95_ms": 11.818,
+    "p99_ms": 13.394,
+    "mean_ms": 9.227
+  },
+  "concurrent_wall_seconds": 0.562,
+  "concurrent_throughput_rps": 2134.53,
+  "notes": "Includes local HTTP/JSON overhead; sandbox measurements, not deployment SLOs."
+}

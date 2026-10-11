@@ -1,0 +1,34 @@
+{
+  "model_version": "synthetic-logreg-v1",
+  "feature_names": [
+    "pause_seconds",
+    "stable_seconds",
+    "word_count_scaled",
+    "terminal_punctuation",
+    "question_mark",
+    "period_or_exclamation",
+    "open_punctuation",
+    "ends_open_word",
+    "ends_pronoun",
+    "ends_filler",
+    "contains_complete_marker",
+    "is_spanish"
+  ],
+  "coef": [
+    1.0712224581438814,
+    0.34547710663680054,
+    0.5265428678610021,
+    1.3237741115083823,
+    0.7910626089223807,
+    1.1129765518901908,
+    -0.16864114272825184,
+    -0.6622905011018476,
+    0.0,
+    0.0,
+    0.2919780460730425,
+    -0.1322905766419384
+  ],
+  "intercept": -2.9835671397285055,
+  "threshold": 0.5800000000000003,
+  "training_note": "Synthetic prototype only; do not use as a production quality claim."
+}
